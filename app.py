@@ -204,7 +204,7 @@ col_top1, col_top2 = st.columns([1, 3])
 
 with col_top1:
     try:
-        img_voice = Image.open('voice_ctrl.jpg')
+        img_voice = Image.open('Miguel_Paisa.png')
         st.image(img_voice, width=180)
     except Exception:
         pass
